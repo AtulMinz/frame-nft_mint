@@ -47,6 +47,6 @@ export const fetchNft = async (
   }
 };
 
-fetchNft(address, token_id);
+export const buyNft = () => {};
 
-console.log(OPENSEA_API_KEY);
+fetchNft(address, token_id);
