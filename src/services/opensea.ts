@@ -25,7 +25,7 @@ export const fetchNft = async (
       url: token_url,
       headers: {
         accept: "application/json",
-        "x-api-key": OPENSEA_API_KEY,
+        "x-api-key": OPENSEA_API_KEY as string,
       },
     };
 
