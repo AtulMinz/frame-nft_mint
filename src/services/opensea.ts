@@ -1,5 +1,5 @@
 import { mainnet } from "viem/chains";
-import { OPENSEA_API_KEY, BASE_URL } from "./utils.js";
+import { OPENSEA_API_KEY, BASE_URL } from "../utils.js";
 import type { Address } from "viem";
 import axios from "axios";
 
@@ -25,7 +25,7 @@ export const fetchNft = async (
       url: token_url,
       headers: {
         accept: "application/json",
-        "x-api-key": "589d37041c214377a3b5c294c988589f",
+        "x-api-key": OPENSEA_API_KEY,
       },
     };
 
