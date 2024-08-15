@@ -1,3 +1,5 @@
+# NFT mint frame(opensea)
+
 ```sh
 bun install
 bun run dev
